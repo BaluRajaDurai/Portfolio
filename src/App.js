@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="app">
-      <Router>
+      <Router basename="/Portfolio">
         <ScrollToTop/>
         <Switch>
           <Route path="/" exact component={Main} />
